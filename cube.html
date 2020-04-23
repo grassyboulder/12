@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+<head><title>Title</title></head>
+<body>
+<H1>cube</H1>
+<canvas id="canvas" width="600" height="600" style="border:1px solid #000000;"></canvas>
+<script type="text/javascript">
+var canvas = document.getElementById("canvas");
+var brush = canvas.getContext("2d");
+
+
+brush.strokeStyle="darkblue";
+brush.beginPath();
+brush.moveTo(0, 0);
+brush.lineTo(400, 200);
+brush.stroke();
+
+</script>
+</body>
+</html>
